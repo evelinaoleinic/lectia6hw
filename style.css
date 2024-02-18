@@ -1,0 +1,47 @@
+.ex1Class {
+    margin: 8px 32px 32px 16px;
+    padding: 32px 16px;
+    border: 1px solid rgb(32 32 32);
+}
+.ex2Class :nth-child(1) {
+    color: rgb(205, 43, 94);
+}
+.ex2Class :nth-child(3) {
+    color: rgb(205, 43, 94);
+}
+.ex2Class :nth-child(7) {
+    color: rgb(205, 43, 94);
+}
+
+.ex3Class {
+    height: 75px;
+    width: 75px;
+    border: 1px solid black;
+}
+.ex3Class:hover {
+    border: 1px solid red;
+}
+.ex4Class1 {
+    height: 50px;
+    width:250px;
+    background-color: yellowgreen; 
+    position: relative; 
+}
+.ex4Class2 {
+    height: 50%;
+    width: 25%;
+    background-color: aqua;
+    position:relative;
+}
+.ex5Class::after {
+    content: "after";
+    margin-left: 10px;
+    background-color: aqua;
+    border-radius: 50%;
+}
+.ex5Class::before {
+    content: "before";
+    margin-right: 10px;
+    background-color: aqua;
+    border-radius: 50%;
+}
